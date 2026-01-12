@@ -22,9 +22,10 @@ const theSeasons = localFont({
     },
   ],
   variable: '--font-serif',
+  display: 'swap', // Garante que o navegador tente renderizar a fonte assim que possível
 });
 
-// 2. Configuração da Josefin Sans (Textos Gerais - Peso Regular 400)
+// 2. Configuração da Josefin Sans
 const josefinSans = localFont({
   src: [
     {
@@ -49,9 +50,10 @@ const josefinSans = localFont({
     },
   ],
   variable: '--font-sans',
+  display: 'swap',
 });
 
-// 3. Configuração da Montserrat (Menu e Botões)
+// 3. Configuração da Montserrat
 const montserrat = localFont({
   src: [
     {
@@ -71,12 +73,13 @@ const montserrat = localFont({
     },
   ],
   variable: '--font-montserrat',
+  display: 'swap',
 });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className={`${josefinSans.variable} ${theSeasons.variable} ${montserrat.variable} font-sans`}> 
+      <body className={`${josefinSans.variable} ${theSeasons.variable} ${montserrat.variable} font-sans antialiased`}> 
         {children}
       </body>
     </html>

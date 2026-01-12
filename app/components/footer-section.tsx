@@ -20,16 +20,16 @@ export function FooterSection() {
           />
         </div>
 
-        {/* Títulos */}
+        {/* Títulos - Aplicada a classe font-serif (The Seasons) */}
         <h2 className="text-[#b89a55] text-4xl md:text-5xl font-serif leading-tight mb-2">
-          Solicite uma proposta personalizada!
+          Solicite uma proposta personalizada
         </h2>
         <p className="text-[#85532c] text-3xl md:text-5xl font-serif italic font-light mb-8">
           Atendemos em Maranhão e Piauí
         </p>
 
         {/* Lista de Equipamentos */}
-        <p className="text-[#785340]/80 text-sm md:text-base font-bold max-w-2xl mx-auto leading-relaxed uppercase tracking-wider">
+        <p className="text-[#785340]/80 text-sm md:text-0.2rem lg:text-base font-bold max-w-2xl mx-auto leading-relaxed uppercase tracking-wider">
           Ultraformer MPT, BodyTite Morpheus, Laser Lavieen, <br />
           CO₂ Fracionado, Endolaser e Freddo.
         </p>

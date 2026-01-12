@@ -35,7 +35,7 @@ export function WorkshopSection() {
                             aspect-[9/16] w-full max-w-[300px] sm:max-w-[350px] xl:max-w-none h-[530px] sm:h-[620px] xl:h-auto">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/SEU_ID_DO_VIDEO"
+                  src="https://www.youtube.com/embed/RykYqWsFQHg"
                   title="Workshop Masterclass"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
