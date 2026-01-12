@@ -2,27 +2,42 @@
 import './globals.css';
 import localFont from "next/font/local";
 
-// 1. Configuração da The Seasons (Serifada Premium)
+// 1. Configuração da The Seasons (Pasta: TheSeasonsFont | Extensão: .ttf)
 const theSeasons = localFont({
   src: [
     {
-      path: '../public/fonts/The Seasons Font/Fontspring-DEMO-theseasons-reg.otf',
+      path: '../public/fonts/TheSeasonsFont/the-seasons-regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/fonts/The Seasons Font/Fontspring-DEMO-theseasons-it.otf',
+      path: '../public/fonts/TheSeasonsFont/the-seasons-italic.ttf',
       weight: '400',
       style: 'italic',
     },
     {
-      path: '../public/fonts/The Seasons Font/Fontspring-DEMO-theseasons-bd.otf',
+      path: '../public/fonts/TheSeasonsFont/the-seasons-light.ttf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/TheSeasonsFont/the-seasons-light-italic.ttf',
+      weight: '300',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/TheSeasonsFont/the-seasons-bold.ttf',
       weight: '700',
       style: 'normal',
     },
+    {
+      path: '../public/fonts/TheSeasonsFont/the-seasons-bold-italic.ttf',
+      weight: '700',
+      style: 'italic',
+    },
   ],
   variable: '--font-serif',
-  display: 'swap', // Garante que o navegador tente renderizar a fonte assim que possível
+  display: 'swap',
 });
 
 // 2. Configuração da Josefin Sans
