@@ -47,20 +47,15 @@ export function Testimonials() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-32 lg:gap-x-24 xl:gap-x-32 max-w-7xl mx-auto items-stretch pb-30">
           {testimonials.map((item, index) => (
             <div key={index} className="relative flex justify-center pt-10">
-              
-              {/* Moldura: Mantida como estava no seu original */}
+
               <div className="border-2 border-[#785340] rounded-[45px] w-[85%] lg:w-full max-w-[400px] lg:max-w-none flex flex-col relative bg-transparent h-full">
                 
-                {/* Cabeçalho Marrom: 
-                    - Adicionado rounded-t-[43px] (um pouco menor que o pai para encaixar)
-                    - -mt-[2px] e -mx-[1px] para ele "vazar" um pouquinho e cobrir a fresta bege
-                */}
+
                 <div className="relative w-[calc(100%+2px)] -ml-[1px] h-14 bg-[#785340] rounded-t-[43px] flex items-center px-6 shrink-0 -mt-[2px]">
                   <span className="text-white font-montserrat font-bold text-[16px] tracking-[0.15em] uppercase truncate pr-14">
                     {item.name}
                   </span>
 
-                  {/* Foto: Mantida exatamente como estava, sem cortes */}
                   <div className="absolute -top-8 right-2 w-20 h-20 border-[5px] border-[#F2E9E1] rounded-full overflow-hidden shadow-xl z-50 bg-[#f7f1ed]">
                     <Image
                       src={item.image}
@@ -72,7 +67,7 @@ export function Testimonials() {
                 </div>
 
                 <div className="flex flex-col items-center px-4 pb-10 flex-grow">
-                  {/* Card Branco: Mantido com w-[130%] e -mx-[15%] conforme seu design original */}
+
                   <div className="bg-[#f7f1ed] w-[130%] -mx-[15%] rounded-[35px] shadow-[0_20px_50px_rgba(0,0,0,0.15)] p-8 mt-10 relative z-40 border border-gray-100/50 flex-grow">
                     <div className="flex justify-between items-center mb-6">
                       <div className="w-8 h-8 relative bg-[#b89a55]/20 rounded-full flex items-center justify-center shrink-0">
@@ -95,7 +90,7 @@ export function Testimonials() {
                     </p>
                   </div>
 
-                  {/* Estrelas: Mantidas na mesma posição */}
+
                   <div className="flex justify-center gap-1.5 mt-8 shrink-0">
                     {[...Array(5)].map((_, i) => (
                       <div key={i} className="w-5 h-5 relative">

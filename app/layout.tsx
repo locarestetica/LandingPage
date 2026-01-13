@@ -2,7 +2,7 @@
 import './globals.css';
 import localFont from "next/font/local";
 
-// 1. Configuração da The Seasons (Pasta: TheSeasonsFont | Extensão: .ttf)
+// 1. Configuração da The Seasons (Pasta: TheSeasonsFont)
 const theSeasons = localFont({
   src: [
     {

@@ -10,10 +10,7 @@ export function WorkshopSection() {
     <section 
       className="relative bg-[#CCAA8E] py-12 lg:py-20 px-4 border-t border-[#CCAA8E] -mt-[1px]"
     >
-      {/* SOLUÇÃO DEFINITIVA PARA A LINHA:
-         1. border-t border-[#CCAA8E]: Cria uma borda da mesma cor do fundo para selar o topo.
-         2. -mt-[1px]: Garante que a seção suba um pixel para cobrir qualquer falha de arredondamento.
-      */}
+
       
       <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-12 items-center">

@@ -76,12 +76,12 @@ const equipamentos = [
   },
   {
     logo: "/logo1.png",
-    name: "Etherea MX",
+    name: "BodyTite Morpheus",
     description: "Plataforma multifuncional para diversos tratamentos a laser e luz pulsada.",
     details: "Radiofrequência fracionada microagulhada que atinge camadas profundas da pele, promovendo contração tecidual e remodelação do colágeno. Indicado para flacidez, textura irregular e melhora do contorno. Benefícios: firmeza, rejuvenescimento profundo e melhora da qualidade da pele. Tempo de recuperação: de 2 a 5 dias, com possível edema leve e pontos discretos.",
     image: "/morpheu.png",
-    buttonText: "QUERO LOCAR O ETHEREA MX",
-    wppMessage: "Olá! Quero saber a disponibilidade de datas para o Etherea MX."
+    buttonText: "QUERO LOCAR O BODYTITE MORPHEUS",
+    wppMessage: "Olá! Quero saber a disponibilidade de datas para o BodyTite Morpheus."
   }
 ];
 
@@ -90,7 +90,6 @@ export function EquipamentosSection() {
 
   return (
     <section 
-      // CORREÇÃO DEFINITIVA: border-t e -mt-[1px] para eliminar a linha horizontal
       className="relative py-24 bg-[#CCAA8E] overflow-hidden border-t border-[#CCAA8E] -mt-[1px]"
     >
       <div className="container relative z-10 mx-auto px-4">

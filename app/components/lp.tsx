@@ -16,7 +16,6 @@ export function LandingPage() {
         <div className="flex flex-col min-h-screen">
             <Header />
             
-            {/* O pt-20 é CRÍTICO para compensar o Header fixo de h-20. */}
             <main className="flex-1 pt-20"> 
                 <HeroSection />
                 <Features />
@@ -27,7 +26,6 @@ export function LandingPage() {
                 <FooterSection />
                 <Footer />
             </main>
-            {/* O rodapé (Footer) virá aqui, se houver */}
         </div>
     );
 }

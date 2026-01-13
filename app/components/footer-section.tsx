@@ -8,9 +8,8 @@ export function FooterSection() {
 
   return (
     <section className="relative w-full flex flex-col">
-      {/* 1. PARTE SUPERIOR (Bege Claro) */}
       <div className="bg-[#f2e3d7] pt-24 pb-16 px-4 text-center flex flex-col items-center">
-        {/* Estrela PNG */}
+
         <div className="mb-8 relative w-20 h-20">
           <Image 
             src="/star.png" 
@@ -35,9 +34,9 @@ export function FooterSection() {
         </p>
       </div>
 
-      {/* 2. PARTE INFERIOR (Marrom Escuro) - Restaurado tamanho original */}
+      {/* 2. PARTE INFERIOR (Marrom Escuro) */}
       <div className="bg-[#8D6547] h-48 w-full flex flex-col items-center justify-center pt-16">
-        {/* Redes Sociais - Tamanho w-15 h-15 restaurado conforme seu original */}
+        {/* Redes Sociais*/}
         <div className="flex gap-6 mt-4">
           <a 
             href={`https://wa.me/${whatsappNumber}?text=${message}`}
@@ -56,7 +55,7 @@ export function FooterSection() {
         </div>
       </div>
 
-      {/* 3. BOTÃO CENTRALIZADO NA DIVISÃO - Tamanho h-14 original mantido */}
+      {/* 3. BOTÃO CENTRALIZADO NA DIVISÃO */}
       <div className="absolute left-1/2 top-[calc(100%-12rem)] -translate-x-1/2 -translate-y-1/2 z-20 w-full max-w-xs px-4">
         <Button 
           asChild

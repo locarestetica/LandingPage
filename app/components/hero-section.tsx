@@ -11,7 +11,6 @@ export function HeroSection() {
   return (
     <section
       id="inicio"
-      // Alterado: min-h-screen removido do mobile (mantido apenas h-auto)
       className="relative w-full overflow-hidden bg-[url('/bg1.png')] bg-cover bg-no-repeat bg-top 
                  pt-1 pb-10 md:pt-14 md:pb-20 h-auto md:min-h-[850px] flex flex-col items-center md:items-start" 
     >

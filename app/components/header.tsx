@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Menu, X } from "lucide-react"; // Ícones para o sanduíche
+import { Menu, X } from "lucide-react"; 
 
 const navItems = [
   { name: "Início", href: "#inicio" },

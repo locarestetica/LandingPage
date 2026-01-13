@@ -10,11 +10,10 @@ export function LocacaoChamadaSection() {
       {/* IMAGEM DE BACKGROUND DA SESSÃO */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/bg3.png" // Substitua pelo caminho da sua foto de fundo
+          src="/bg3.png" 
           alt="Background"
           className="w-full h-full object-top"
         />
-        {/* Overlay opcional para garantir contraste com o texto branco */}
         <div className="absolute inset-0 mix-blend-multiply"></div>
       </div>
 

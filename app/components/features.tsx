@@ -45,7 +45,6 @@ export function Features() {
                     {differentials.map((item, index) => (
                         <Card
                             key={index}
-                            // SOMBRA CUSTOMIZADA: Deslocada 20px para direita e 20px para baixo
                             className="bg-white border-none rounded-[2rem] transition-all hover:scale-[1.03] flex flex-col items-center min-h-[300px]"
                         >
                             <CardHeader className="text-center pt-4 pb-1 px-6 flex flex-col items-center">

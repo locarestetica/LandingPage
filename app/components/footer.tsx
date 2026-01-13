@@ -24,7 +24,7 @@ export function Footer() {
           {/* Logo Locar Estética */}
           <div className="relative w-48 h-12 order-1 md:order-2">
             <Image
-              src="/logo-footer.png" // Certifique-se de que o arquivo está em public/
+              src="/logo-footer.png" 
               alt="Locar Estética Logo"
               fill
               className="object-contain"
@@ -39,7 +39,7 @@ export function Footer() {
           <p className="text-[10px] md:text-xs tracking-[0.2em] uppercase opacity-70">
             Desenvolvido por{" "}
             <Link 
-              href="https://wa.me/SEUNUMERO" // Insira seu link de contato aqui
+              href="https://wa.me/5585987525404" 
               target="_blank"
               className="font-bold hover:text-white transition-colors underline underline-offset-4"
             >
